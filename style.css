@@ -1,0 +1,116 @@
+    
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+header{
+        border-bottom: 2px solid grey;
+        margin: 10px;
+        background-color: white;
+        }
+
+.logotipo{
+    max-width: 10%;
+    max-height: 10%;
+    float: left;   
+    margin-left: 40px;
+    z-index:-1;
+}
+
+
+h1{
+    font-family: Indie Flower;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: Indie Flower;
+    font-size: 35px;
+    text-align: center;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Indie Flower;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid grey;
+     }
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:active{text-decoration: none;
+        color: black;}
+
+.jornala:hover{
+    font-style: oblique;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.video:hover{
+    font-style: oblique;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+#corpo{
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 30px;
+    align-content: center;
+    margin: 33px;
+    }
+img{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.cartao{
+    filter: grayscale(1);
+    align-content: center;
+    max-width: 100%;
+}
+.carta{
+    filter: grayscale(1);
+    align-content: flex-end;
+    max-block-size: inherit;
+    margin:0px 4.5px 0px 0px;
+}
+footer{
+    margin:60px;
+    font-family: Indie Flower;
+    font-weight: bold;
+    display:grid;
+    grid-template-columns: 75% 25%;
+    background-color: #9DA65D;
+    }
+.endereco{
+    margin-left: 40px;
+
+}
+
+.redes{
+    max-width: 10%;
+}
+
+.jornal{
+    margin:60px;
+    font-family: Indie Flower;
+    font-weight: bold;
+    border-style: outset;
+    background-color: #8C8C88;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+
+#links{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+}
